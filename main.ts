@@ -1,4 +1,6 @@
 input.onButtonPressed(Button.A, function () {
+    let strip: neopixel.Strip = null
+    strip.showRainbow(1, 360)
     basic.showString("hallo!")
     music.playMelody("E B C5 A B G A F ", 120)
     basic.showIcon(IconNames.Pitchfork)
