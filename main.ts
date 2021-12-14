@@ -12,6 +12,7 @@ input.onButtonPressed(Button.AB, function () {
     RingbitCar.brake()
 })
 input.onButtonPressed(Button.B, function () {
+    RingbitCar.steering_angle(RingbitCar.Direction_turn.right, 90)
     basic.showString("jeg har laget dette selv")
     basic.showArrow(ArrowNames.North)
     basic.showArrow(ArrowNames.NorthEast)
